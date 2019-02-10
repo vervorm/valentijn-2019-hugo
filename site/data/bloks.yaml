@@ -77,6 +77,24 @@ bloks:
     id: datwe
 
   - text:   
+      - row: Euh
+      - row: ...
+    id: euh3
+
+  - text:   
+      - row: dat we 
+      - row: samen een heel 
+      - row: groot feest geven
+      - row: alsof we zouden 
+      - row: trouwen maar dan
+      - row: zonder echt te 
+      - row: trouwen 
+      - row: met al onze 
+      - row: familie en vrienden
+      - row: en zo
+    id: feest
+
+  - text:   
       - row: ...
     id: 
     css: isLast
