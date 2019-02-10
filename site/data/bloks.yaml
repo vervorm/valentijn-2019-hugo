@@ -9,12 +9,14 @@ bloks:
       - row: schat 
     content: {iccon van haar}
     id: hey
+    back: hey
 
   - text:   
       - row: T’is  
       - row: ik
     content: {mijn icoon}
     id: ik
+    back: ik
 
   # - text:   
   #     - row: ...
@@ -25,19 +27,12 @@ bloks:
       - row: goed?
     content: {groot vraagteken}
     id: canvas
+    back: "?"
 
   - text:   
       - row: ...
     id: euh0
-
-  - text:   
-      - row: heb ik 
-      - row: al
-      - row: gezegd
-      - row: dat ik
-      - row: van je
-      - row: hou
-    id: hou
+    back: mmm
 
   - text:   
       - row: Zeg we   
@@ -46,17 +41,19 @@ bloks:
       - row: samen
     content: {grote10}
     id: 10
+    back: +10
 
   - text:   
       - row:  En ik   
       - row: dacht
-    content: {icoon brains}
     id: dacht
+    back: dacht
 
   - text:   
       - row: Euh
       - row: ...
     id: euh1
+    back: euh
 
 
   - text:    
@@ -66,35 +63,96 @@ bloks:
       - row: geen  
       - row: tijd
     id: tijd
+    back: ik draai rond de pot
 
   - text:   
       - row: ...
     id: euh2
+    back: euh
 
   - text:   
       - row: Dat
       - row: we
     id: datwe
+    back: iets moeten doen
 
   - text:   
       - row: Euh
       - row: ...
     id: euh3
+    back: ik draai rond de pot
 
   - text:   
       - row: dat we 
       - row: samen een heel 
-      - row: groot feest geven
-      - row: alsof we zouden 
-      - row: trouwen maar dan
-      - row: zonder echt te 
-      - row: trouwen 
-      - row: met al onze 
-      - row: familie en vrienden
-      - row: en zo
-    id: feest
+      - row: groot feest 
+      - row: geven alsof
+      - row: we zouden 
+    id: feest 
+    back: feest
+
+  # - text:   
+  #     - row: knipoog 
+
+
+
+  # - text:   
+  #     - row: ...
+  #   id: euh4
 
   - text:   
-      - row: ...
-    id: 
+      - row: je
+      - row: weet
+      - row: wel
+    id: jeweetwel
+    back: knipoog
+
+  - text:   
+      - row: met onze
+      - row: vrienden
+      - row: familie
+      - row: en zo
+    id: vrienden
+    back: feest
+
+  - text:   
+      - row: een soort
+      - row: van
+      - row: tafel van
+      - row: 60
+    id: tafel
+    back: 60
+
+  - text:   
+      - row: wat denk
+      - row: je
+    id: denk
+    back: '?'
+
+  - text:   
+      - row: oh
+      - row: en
+    id: ohen
+    back: en
+
+  # - text:   
+  #     - row: zalige
+  #     - row: valentijn
+  #   id: valentijn
+
+  - text:   
+      - row: heb ik 
+      - row: al
+      - row: gezegd
+      - row: dat ik
+      - row: van je
+      - row: hou
+    id: hou
+    back: '<3'
+
+  - text:   
+      - row: love
+      - row: you
+    id: you
+    back: '<3'
     css: isLast

@@ -28,25 +28,34 @@
     wHeight = window.innerHeight;
     wWidth = window.innerWidth;
 
-
-    refresh("hey","hey");
-    refresh("ik","ik");
-    refresh("?","canvas");
-    refresh("10","10");
-    refresh("dacht","dacht");
+    {{ range $.Site.Data }}
+      {{ range .bloks }}
+        refresh({{.back}},{{.id}});
+      {{end}}
+    {{end}}
+    {{/*  refresh("hey","hey");
+    
     refresh("?","hou");
     refresh("tijd","tijd");
     refresh("euh","datwe");
-    refresh("mmm","euh0");
-    refresh("euh","euh1");
-    refresh("euh","euh2");
+    
     refresh("ik draai rond de pot","euh3");
     refresh("feestje","feest");
+    refresh("euh","euh3");
+    refresh("euh","euh4");
+    refresh("knip oog","jeweetwel");
+    refresh("feestje","vrienden");
+    refresh("60","tafel");
+    refresh("?","denk");
+    refresh("<3","ohen");
+    refresh("<3","valentijn");
+    refresh("<3","you");  */}}
   })
 
 
   var refresh = function(_text, _target) {
 
+    console.log (_text,_target)
     var _canvas = document.getElementById(_target);
 
     _canvas.height = wHeight;
