@@ -16,7 +16,7 @@ bloks:
       - row: ik
     content: {mijn icoon}
     id: ik
-    back: ik
+    back: steven
 
   # - text:   
   #     - row: ...
@@ -41,7 +41,7 @@ bloks:
       - row: samen
     content: {grote10}
     id: 10
-    back: +10
+    back: "+10"
 
   - text:   
       - row:  En ik   
@@ -63,12 +63,12 @@ bloks:
       - row: geen  
       - row: tijd
     id: tijd
-    back: ik draai rond de pot
+    back: tijd
 
   - text:   
       - row: ...
     id: euh2
-    back: euh
+    back: komaan steven
 
   - text:   
       - row: Dat
@@ -87,9 +87,9 @@ bloks:
       - row: samen een heel 
       - row: groot feest 
       - row: geven alsof
-      - row: we zouden 
+      - row: we 
     id: feest 
-    back: feest
+    back: alsof
 
   # - text:   
   #     - row: knipoog 
