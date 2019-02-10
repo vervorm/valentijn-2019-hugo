@@ -16,9 +16,9 @@ bloks:
     content: {mijn icoon}
     id: ik
 
-  - text:   
-      - row: ...
-    id: 
+  # - text:   
+  #     - row: ...
+  #   id: 
 
   - text:   
       - row: Alles   

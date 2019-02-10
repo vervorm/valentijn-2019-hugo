@@ -5,11 +5,11 @@ body {
   background-color: #150000; }
 
 canvas {
-  width: 80vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
-  top: 10vh;
-  left: 10vw; }
+  top: 0;
+  left: 0; }
 
 .page {
   position: relative;
