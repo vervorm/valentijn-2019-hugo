@@ -1,0 +1,82 @@
+bloks:
+  # - text:   
+  #     - row: test 
+  #     - row: 123 
+  #   content: {iccon van haar}
+
+  - text:   
+      - row: Hey 
+      - row: schat 
+    content: {iccon van haar}
+    id: hey
+
+  - text:   
+      - row: T’is  
+      - row: ik
+    content: {mijn icoon}
+    id: ik
+
+  - text:   
+      - row: ...
+    id: 
+
+  - text:   
+      - row: Alles   
+      - row: goed?
+    content: {groot vraagteken}
+    id: canvas
+
+  - text:   
+      - row: ...
+    id: euh0
+
+  - text:   
+      - row: heb ik 
+      - row: al
+      - row: gezegd
+      - row: dat ik
+      - row: van je
+      - row: hou
+    id: hou
+
+  - text:   
+      - row: Zeg we   
+      - row: zijn nu   
+      - row: +10 jaar   
+      - row: samen
+    content: {grote10}
+    id: 10
+
+  - text:   
+      - row:  En ik   
+      - row: dacht
+    content: {icoon brains}
+    id: dacht
+
+  - text:   
+      - row: Euh
+      - row: ...
+    id: euh1
+
+
+  - text:    
+      - row: wordt    
+      - row: het
+      - row: misschien
+      - row: geen  
+      - row: tijd
+    id: tijd
+
+  - text:   
+      - row: ...
+    id: euh2
+
+  - text:   
+      - row: Dat
+      - row: we
+    id: datwe
+
+  - text:   
+      - row: ...
+    id: 
+    css: isLast

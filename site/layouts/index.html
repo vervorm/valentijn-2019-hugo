@@ -1,5 +1,79 @@
 {{ define "main" }}
+  {{ range $.Site.Data }}
 
-<h1>Hey schat</h1>
+    {{ range .bloks }}
+    <div class="wrapper">
+      <div class="container page">
+        <canvas id="{{.id}}"></canvas>
+        <h1 class="content">
+            {{ range .text }}
+            <span class="slabbedtext"> {{ .row }} </span>
+            {{ end }}
+        </h1>
+        <div class="ball {{ .css }}"></div>
+    </div>
+  </div>
+    {{ end }}
+
+  {{ end }}
+
+<script>
+
+  var wHeight, wWidth
+
+  $(function(){
+
+    console.log("ready", window.innerHeight);
+
+    wHeight = window.innerHeight*.8;
+    wWidth = window.innerWidth*.8;
+
+
+    refresh("hey","hey");
+    refresh("ik","ik");
+    refresh("?","canvas");
+    refresh("10","10");
+    refresh("dacht","dacht");
+    refresh("?","hou");
+    refresh("tijd","tijd");
+    refresh("euh","datwe");
+    refresh("mmm","euh0");
+    refresh("euh","euh1");
+    refresh("euh","euh2");
+  })
+
+
+  var refresh = function(_text, _target) {
+
+    var _canvas = document.getElementById(_target);
+
+    _canvas.height = wHeight;
+    _canvas.width = wWidth;
+    var ctx = _canvas.getContext("2d");
+
+    ctx.clearRect(0,0,400,400);
+
+    for(i=0; i<100; i++) {
+
+
+      var fontSize = Math.floor(Math.random()*80);
+      
+      var x = Math.floor(Math.random()*wWidth);
+      var y = Math.floor(Math.random()*wHeight);
+      var radius = Math.floor(Math.random()*20);
+      var rotate = Math.random();
+      
+      
+      ctx.beginPath();
+      
+      ctx.rotate(rotate);
+      ctx.fillStyle = 'rgba(255,255,255,.2)';
+      ctx.font = fontSize + "px Verdana";
+      ctx.fillText(_text, x, y);
+      ctx.closePath();
+    }
+  }
+
+</script>
 
 {{ end }}

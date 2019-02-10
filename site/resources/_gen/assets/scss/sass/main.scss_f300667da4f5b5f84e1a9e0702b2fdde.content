@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:900");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #150000; }
+
+canvas {
+  width: 80vw;
+  height: 80vh;
+  position: absolute;
+  top: 10vh;
+  left: 10vw; }
+
+.page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh; }
+  .page .content {
+    text-align: center; }
+    .page .content .slabbedtext {
+      font-family: 'Roboto', sans-serif;
+      color: rgba(255, 255, 255, 0.65); }
+
+.ball {
+  border: 1px dashed white;
+  opacity: .5;
+  width: 16px;
+  height: 64px;
+  position: absolute;
+  bottom: -32px;
+  left: calc((100vw / 2) - 8px);
+  border-radius: 32px; }
+  .ball.isLast {
+    display: none; }
+
+div.ball:last-of-type() {
+  background-color: red; }
+
+.slabified .slabbedtext {
+  display: -moz-inline-box;
+  display: inline-block;
+  white-space: nowrap; }
+
+.slabbedtextinactive .slabbedtext {
+  display: inline;
+  white-space: normal;
+  font-size: 1em !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  *letter-spacing: 0 !important;
+  *word-spacing: 0 !important; }
+
+.slabbedtextdone .slabbedtext {
+  display: block; }
+
+/* On screens that are 992px or less, set the background color to blue */
+/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less, set the background color to olive */
