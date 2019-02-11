@@ -163,6 +163,7 @@ bloks:
     back: '<3'
 
   - text:   
+      - row: I
       - row: love
       - row: you
     id: you
