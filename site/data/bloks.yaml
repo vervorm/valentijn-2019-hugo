@@ -71,8 +71,10 @@ bloks:
     back: komaan steven
 
   - text:   
-      - row: Dat
-      - row: we
+      # - row: dat het
+      - row: tijd
+      - row: dat we
+      - row: samen
     id: datwe
     back: iets moeten doen
 
@@ -86,9 +88,16 @@ bloks:
       - row: dat we 
       - row: samen een heel 
       - row: groot feest 
-      - row: geven alsof
-      - row: we 
+      - row: moeten
+      - row: geven 
     id: feest 
+    back: alsof
+  
+  - text:
+      - row: een groot
+      - row: feest alsof
+      - row: we 
+    id: groot2
     back: alsof
 
   # - text:   
@@ -108,8 +117,11 @@ bloks:
     back: knipoog
 
   - text:   
+      - row: een groot
+      - row: feest
       - row: met onze
       - row: vrienden
+      - row: en
       - row: familie
       - row: en zo
     id: vrienden
