@@ -14,13 +14,18 @@ bloks:
       - row: ik
     back: Steven
 
-  # - text:   
-  #     - row: ...
-  #
+  - text:   
+      - row: en ik 
+      - row: wil je
+      - row: iets
+      - row: vragen
+    back: "?"
+  
 
   - text:   
       - row: Alles   
-      - row: goed
+      - row: goed met
+      - row: je?
     back: "?"
 
   - text:   
@@ -74,16 +79,28 @@ bloks:
     back: wil jij
 
   - text:   
-      - row: Euh
       - row: ...
     back: ik draai rond de pot
 
+  - text:   
+      # - row: "....."
+      - row: ....fuiven....
+      # - row: "....."
+    back: feestje
+
+  - text:   
+      - row: ik bedoel,
+      - row: wil je
+      - row: met mij
+    back: feestje
+
+
   - text:    
       - row: een 
-      - row: heel groot 
-      - row: feest
+      - row: grote 
+      - row: fuif
       - row: geven 
-    back: alsof
+    back: knipoog
   
   # - text:
   #     - row: een groot
@@ -91,15 +108,10 @@ bloks:
   #     - row: we 
   #   back: alsof
 
-  # - text:   
-  #     - row: je
-  #     - row: weet
-  #     - row: wel
-  #   back: knipoog
 
   - text:   
       - row: een
-      - row: feest
+      - row: fuif
       - row: met onze
       - row: vrienden
       - row: en familie
@@ -110,13 +122,36 @@ bloks:
       - row: een soort
       - row: van
       - row: tafel van
-      - row: 60
+      - row: 6
     back: 60
+
+  - text:   
+      - row: maar dan
+      - row: zonder tafels
+      - row: en met meer
+      - row: volk
+    back: knipoog
 
   - text:   
       - row: wat denk
       - row: je
     back: '?'
+
+  - text:   
+      - row: doen we
+      - row: dat
+    back: '?'
+
+  - text:   
+      - row: maar
+      - row: als je
+      - row: liever naar
+      - row: NY
+      - row: wil gaan,
+      - row: is ook ok
+      - row: voor mij
+    back: 'the big apple'
+
 
   - text:   
       - row: oh
