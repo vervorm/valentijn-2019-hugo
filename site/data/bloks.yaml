@@ -20,15 +20,22 @@ bloks:
 
   - text:   
       - row: Alles   
-      - row: goed?
+      - row: goed
     back: "?"
 
   - text:   
       - row: ...
     back: mmm
 
+
   - text:   
-      - row: Zeg we   
+      - row: Ik was
+      - row: aan het 
+      - row: denken
+    back: ik
+
+  - text:   
+      - row: we   
       - row: zijn nu   
       - row: +10 jaar   
       - row: samen
@@ -40,19 +47,19 @@ bloks:
     back: euh
 
   - text:   
-      - row:  En ik   
+      - row:  en ik   
       - row: dacht
     back: dacht
 
 
 
-  # - text:    
-  #     - row: wordt    
-  #     - row: het
-  #     - row: misschien
-  #     - row: geen  
-  #     - row: tijd
-  #   back: tijd
+  - text:    
+      - row: wordt    
+      - row: het
+      - row: misschien
+      - row: geen  
+      - row: tijd
+    back: tijd
 
   - text:   
       - row: ...
@@ -63,6 +70,7 @@ bloks:
       - row: Nienke
       - row: wil jij
       - row: met mij
+      - row: ...
     back: wil jij
 
   - text:   

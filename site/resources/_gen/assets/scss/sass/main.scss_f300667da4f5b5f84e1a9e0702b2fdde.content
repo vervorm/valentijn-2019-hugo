@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #150000; }
+  background-color: maroon; }
 
 canvas {
   width: 100vw;
