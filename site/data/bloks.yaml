@@ -2,36 +2,29 @@ bloks:
   # - text:   
   #     - row: test 
   #     - row: 123 
-  #   content: {iccon van haar}
+  #
 
   - text:   
       - row: Hey 
       - row: schat 
-    content: {iccon van haar}
-    id: hey
     back: hey
 
   - text:   
       - row: T’is  
       - row: ik
-    content: {mijn icoon}
-    id: ik
-    back: steven
+    back: Steven
 
   # - text:   
   #     - row: ...
-  #   id: 
+  #
 
   - text:   
       - row: Alles   
       - row: goed?
-    content: {groot vraagteken}
-    id: canvas
     back: "?"
 
   - text:   
       - row: ...
-    id: euh0
     back: mmm
 
   - text:   
@@ -39,92 +32,70 @@ bloks:
       - row: zijn nu   
       - row: +10 jaar   
       - row: samen
-    content: {grote10}
-    id: 10
     back: "+10"
+
+  - text:   
+      - row: Euh
+      - row: ...
+    back: euh
 
   - text:   
       - row:  En ik   
       - row: dacht
-    id: dacht
     back: dacht
 
-  - text:   
-      - row: Euh
-      - row: ...
-    id: euh1
-    back: euh
 
 
-  - text:    
-      - row: wordt    
-      - row: het
-      - row: misschien
-      - row: geen  
-      - row: tijd
-    id: tijd
-    back: tijd
+  # - text:    
+  #     - row: wordt    
+  #     - row: het
+  #     - row: misschien
+  #     - row: geen  
+  #     - row: tijd
+  #   back: tijd
 
   - text:   
       - row: ...
-    id: euh2
     back: komaan steven
 
   - text:   
       # - row: dat het
-      - row: tijd
-      - row: dat we
-      - row: samen
-    id: datwe
-    back: iets moeten doen
+      - row: Nienke
+      - row: wil jij
+      - row: met mij
+    back: wil jij
 
   - text:   
       - row: Euh
       - row: ...
-    id: euh3
     back: ik draai rond de pot
 
-  - text:   
-      - row: dat we 
-      - row: samen een heel 
-      - row: groot feest 
-      - row: moeten
+  - text:    
+      - row: een 
+      - row: heel groot 
+      - row: feest
       - row: geven 
-    id: feest 
     back: alsof
   
-  - text:
-      - row: een groot
-      - row: feest alsof
-      - row: we 
-    id: groot2
-    back: alsof
+  # - text:
+  #     - row: een groot
+  #     - row: feest alsof
+  #     - row: we 
+  #   back: alsof
 
   # - text:   
-  #     - row: knipoog 
-
-
-
-  # - text:   
-  #     - row: ...
-  #   id: euh4
+  #     - row: je
+  #     - row: weet
+  #     - row: wel
+  #   back: knipoog
 
   - text:   
-      - row: je
-      - row: weet
-      - row: wel
-    id: jeweetwel
-    back: knipoog
-
-  - text:   
-      - row: een groot
+      - row: een
       - row: feest
       - row: met onze
       - row: vrienden
-      - row: en
-      - row: familie
+      - row: en familie
       - row: en zo
-    id: vrienden
     back: feest
 
   - text:   
@@ -132,13 +103,11 @@ bloks:
       - row: van
       - row: tafel van
       - row: 60
-    id: tafel
     back: 60
 
   - text:   
       - row: wat denk
       - row: je
-    id: denk
     back: '?'
 
   - text:   
@@ -147,10 +116,6 @@ bloks:
     id: ohen
     back: en
 
-  # - text:   
-  #     - row: zalige
-  #     - row: valentijn
-  #   id: valentijn
 
   - text:   
       - row: heb ik 

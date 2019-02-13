@@ -1,12 +1,12 @@
 {{ define "main" }}
   {{ range $.Site.Data }}
 
-    {{ range .bloks }}
+    {{ range $index, $blok := .bloks }}
     <div class="wrapper">
       <div class="container page">
-        <canvas id="{{.id}}"></canvas>
+        <canvas id="canvas-{{$index}}"></canvas>
         <h1 class="content">
-            {{ range .text }}
+            {{ range $blok.text }}
             <span class="slabbedtext"> {{ .row }} </span>
             {{ end }}
         </h1>
@@ -29,8 +29,8 @@
     wWidth = window.innerWidth;
 
     {{ range $.Site.Data }}
-      {{ range .bloks }}
-        refresh({{.back}},{{.id}});
+      {{ range $index, $blok := .bloks }}
+        refresh({{$blok.back}},"canvas-"+{{$index}});
       {{end}}
     {{end}}
     {{/*  refresh("hey","hey");

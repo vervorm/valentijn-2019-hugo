@@ -16,7 +16,6 @@ canvas {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100vw;
   height: 100vh; }
   .page .content {
     text-align: center; }
