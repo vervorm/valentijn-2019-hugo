@@ -148,15 +148,16 @@ bloks:
       - row: liever naar
       - row: NY
       - row: wil gaan,
-      - row: is ook ok
-      - row: voor mij
+      - row: is dat 
+      - row: ook ok
+      - row: voor mij 
+      - row: ";-)"
     back: 'the big apple'
 
 
   - text:   
       - row: oh
       - row: en
-    id: ohen
     back: en
 
 
@@ -167,13 +168,11 @@ bloks:
       - row: dat ik
       - row: van je
       - row: hou
-    id: hou
     back: '<3'
 
   - text:   
       - row: I
       - row: love
       - row: you
-    id: you
     back: '<3'
     css: isLast
